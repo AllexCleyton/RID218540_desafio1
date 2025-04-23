@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#menu-superior{
+    color: #FFFFFF;
+    background-color: #303030;
+}
+
+#titulo-superior{
+    padding-top: 5%;
+    margin-left: 3%;
+}
+
+#texto-superior{
+    padding-top: 0.5%;
+    padding-bottom: 4%;
+    margin-left: 3%;
+}
+
+#menu-informacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#menu-historia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#texto-historia{
+    margin-left: 25%;
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+#texto-h{
+    margin-top: 5%;
+}
+
+#menu-formulario{
+    padding-top: 2.5%;
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+input{
+    border: none;
+    border-radius: 7.5px;
+    width: 308px;
+    height: 42px;
+    margin: 15px;
+    font-family: "Raleway";
+    font-weight: bolder;
+}
+
+button{
+    color: #FFFFFF;
+    background-color: #C07212;
+    margin-bottom: 2.5%;
+    border: none;
+    border-radius: 7.5px;
+    width: 186px;
+    height: 44px;
+    cursor: pointer;
+    font-family: "Raleway";
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #ffa12e;
+    transform: translateY(-3px);
+    transition-duration: 0.25s;
+    box-shadow: 0px 10px 15px #000000;
+}
